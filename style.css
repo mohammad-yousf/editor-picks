@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+.first-section {
+  width: 100%;
+  background-color: #fbf9fe;
+  height: 70vh;
+}
+.main {
+  height: 494px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.card {
+  width: 280px;
+  box-shadow: 4px 4px 8px gray;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  display: block;
+}
+.content {
+  background-color: white;
+  padding: 0 12px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+.content p {
+  color: #752fc3;
+}
+.content h3 {
+  font-size: 21px;
+}
+.three-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
